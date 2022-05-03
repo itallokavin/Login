@@ -1,0 +1,115 @@
+body{
+    background-color: #020814;
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.container{
+    text-align: center;
+}
+
+.header img{
+    border-radius: 50%;
+    height: 120px;
+    border: 1px solid white;
+    margin-top: 140px;
+}
+
+.input_form{
+    margin-bottom: 10px;
+}
+
+
+.input_pass,.input_user,.input_submit{
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid white;
+    width: 300px;
+    height: 38px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-position: 12px;
+    
+}
+
+.input_user{
+    margin-top: 20px;
+}
+
+.input_user,.input_pass{
+    padding-left: 40px;
+}
+
+.input_submit{
+    background-color: #020814;
+    color: white;
+    border: 1px solid white;
+}
+
+.input_submit:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.input_user:focus,.input_pass:focus{
+    box-shadow: 0 0 6px 0 white;
+}
+
+.icon_submit{
+    position:absolute;
+    top:0; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+}
+
+.input_user{
+    background-image: url(../img/icone-usuario.png);
+}
+
+.input_pass{
+    background-image: url(../img/icone-cadeado.png);
+}
+.footer{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+     
+}
+
+.error{
+    color: red;
+    margin-top: 5px;
+}
+
+/********************    PAINEL   ******************************/
+
+#body-painel{
+    background-color: #020814;
+    color:white;
+}
+
+.box-painel{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.box-painel a{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}

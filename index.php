@@ -45,7 +45,7 @@
         </form>
 
         <div class="footer">
-            <span id="footerCopy">&copy Todos os Direitos Reservados.</span>  
+            <span id="footerCopy">&copy Todos os Direitos Reservados!</span>  
         </div>
     </div>
     
